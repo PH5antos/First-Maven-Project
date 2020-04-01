@@ -18,6 +18,7 @@ public class App{
 
         int menu = 0;
         while(menu == 0){
+            System.out.println("~inicio~");
             for(int i = 0; i < pp.size(); i++){
                 System.out.println(pp.getPorPosicao(i).getNome());
             }
